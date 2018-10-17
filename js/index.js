@@ -107,7 +107,7 @@ SmoothScroll({
 });
 
 // Google Maps
-var myCenter = new google.maps.LatLng(9.9150603, 122.8321918);
+var myCenter = new google.maps.LatLng(26.208355, -80.236306);
 
 function initialize() {
   var mapProp = {

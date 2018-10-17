@@ -3,27 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <title>{Vet2Dev}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel='stylesheet' href='https://www.w3schools.com/lib/w3.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
-
   <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 
 <body>
 
   <div class="w3-top">
     <ul class="w3-navbar" id="myNavbar">
-      <li><a href="#" class="w3-padding-large">Vet 2 Dev</a></li>
+      <li><a href="#" class="w3-padding-large">{Vet 2 Dev}</a></li>
       <li class="w3-hide-small w3-right">
         <a href="#contact" class="w3-padding-large">Contact</a>
       </li>
       <li class="w3-hide-small w3-right">
-        <a href="#portfolio" class="w3-padding-large">Portfolio</a>
+        <a href="#portfolio" class="w3-padding-large" style="color:powderblue">Portfolio</a>
       </li>
       <li class="w3-hide-small w3-right">
         <a href="#about" class="w3-padding-large">About</a>
@@ -34,7 +30,7 @@
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-opacity w3-display-container">
     <div class="w3-display-middle" style="white-space:nowrap;">
-      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">JONATHAN  <span class="w3-hide-small">SEQUEIRA</span></h1>
+      <h1 class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">JONATHAN <span class="w3-hide-small">SEQUEIRA</span></h1>
     </div>
   </div>
 
@@ -52,13 +48,21 @@
     <!--  Profile Picture and Description  -->
     <div class="w3-row">
       <div class="w3-col m6 w3-center w3-section">
-        <img src="images/profile.jpg" id="profile" class="w3-circle"
-          alt="Profile Image">
+        <img src="images/profile.jpg" id="profile" class="w3-circle" alt="Profile Image">
       </div>
 
       <!-- Hide this text on small devices -->
       <div class="w3-col m6 w3-hide-small w3-section">
-        <p>I hope to continue learning new skills so that I may be a positive impact on the teams </p>
+        <blockquote>
+          "People think that computer science is the art of geniuses but the actual
+          reality is the opposite, just many people doing things that build on eachother,
+          like a wall of mini stones."
+          <blockquote>
+            Donald Knuth
+          </blockquote>
+
+        </blockquote>
+
       </div>
     </div>
   </div>
@@ -73,7 +77,7 @@
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container w3-padding-64">
     <h2 class="w3-center">MY WORK</h2>
-    <p class="w3-center"><em>Here are some of my latest lorem work.<br> Click on the images to make them bigger</em></p><br>
+    <p class="w3-center"><em>Here are some of my latest projects.</em></p><br>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
@@ -174,16 +178,10 @@
     </div>
     <p class="w3-half">Made with <span class="heart-icon">❤</span> by: Jonathan Sequeira</p>
   </footer>
-  <script src='https://maps.googleapis.com/maps/api/js'></script>
+  <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd_1g3wf4SiVScCR-IxXQQ1NY4vi-PIoo"
+  type="text/javascript"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js'></script>
-
-
-
   <script src="js/index.js"></script>
-
-
-
-
 </body>
 
 </html>
